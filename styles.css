@@ -1,0 +1,130 @@
+body {
+    font-family: Sagoe UI, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 800px;
+  }
+  
+  .title{
+	margin-top:20px;
+  }
+  
+  .content{
+	  display:flex
+  }
+  
+  .left-column{
+	  flex:1;
+	  text-align: left;
+	  padding: 0 20px;
+  }
+	  
+  .right-column{
+	flex:1;
+	text-align: center;
+	padding: 0 10px;
+  }
+  
+  .chart-container {
+    border: 1px solid #ccc;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+ 
+  
+  
+    .input-item {
+    margin-bottom: 20px;
+  }
+  
+  .input-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-item input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .input-item button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input-item button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .input-item input[type="text"] {
+    width: calc(13%);
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size:14px
+  }
+  
+  
+    .onlyButton  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  
+  
+  
+
+  
+
+
+
+  /* Eliminar flechas en inputs numéricos */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
